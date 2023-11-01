@@ -1,0 +1,69 @@
+nav{
+    text-align: center;
+    padding: 10px;
+}
+
+/* Home page*/
+
+h1{
+    color: whitesmoke;
+    text-align: center;
+}
+
+body{
+    background-image: url('https://i.postimg.cc/zvfw1b7M/spiderweb.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+    color: white;
+  }
+
+  /* about page */
+
+  h2{
+    color: whitesmoke;
+  }
+
+  .aboutimg img{
+    display: block;
+    width: 250px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/* Set the initial position of the "About" section to be off-screen */
+#about{
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+/* When scrolling down, move the "About" section into view */
+#about.active{
+    transform: translateY(0);
+}
+
+/* Education page*/
+
+/* Set the initial position of the "education" section to be off-screen */
+#education {
+    transform: translateY(100%);
+    transition: transform 0.5s;
+}
+
+/* When scrolling down, move the "education" section into view */
+#education.active {
+    transform: translateY(0);
+}
+
+/* Add some padding to create space between the sections */
+section {
+    padding: 50px 0;
+}
+
+
+/* Education page*/
+
+.list-group{
+    color: black;
+}
